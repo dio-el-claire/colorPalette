@@ -1,6 +1,6 @@
 /*!
  * colorPalette - simple color picker.
- * Author: Dmitry (dio) Levashov, dio@std42.ru
+ * Author: Dmitry (dio) Levashov, <dio@std42.ru>
  * 
  * Copyright 2012, Studio 42
  * Licensed under a 3 clauses BSD license
