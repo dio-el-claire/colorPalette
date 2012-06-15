@@ -1,0 +1,64 @@
+.color-palette {
+	position:relative;
+	display:inline-block;
+}
+
+.color-palette-button {
+	display:block;
+	width:22px;
+	height:22px;
+	border:1px solid #ccc;
+	border-radius:4px;
+}
+
+.color-palette-dropdown {
+	position:absolute;
+	left:0;
+	top:24px;
+	border:1px solid #ccc;
+	border-radius:4px;
+	padding:4px;
+	overflow:hidden;
+	background:#eee;
+	box-shadow:1px 2px 7px rgba(0, 0, 0, .25);
+	display:none;
+		text-align:center;
+}
+
+.color-palette-dropdown [class^="palette-"] {
+	min-width:80px;  /*	default width for colors12/colors16 palletes */
+
+}
+
+.color-palette-dropdown [class^="palette-"]:after {
+	content:'';
+	display:block;
+	clear:both;
+	height:4px;
+}
+
+.color-palette-dropdown .palette-crayons { min-width: 160px;}
+.color-palette-dropdown .palette-web { min-width: 240px;}
+
+.color-palette-swatch {
+	display:block;
+	float:left;
+	width:18px;
+	height:18px;
+	margin:1px;
+	border-radius:2px;
+}
+
+.color-#eeeeee { outline:1px solid #ccc;}
+
+input.color-palette-input { 
+	border-radius:4px; 
+/*	width:99%;*/
+	width:6em;
+/*	margin:0 auto;*/
+/*	display:block;*/
+	margin:0;
+	padding: 2px 0;
+	border:1px solid #ccc;
+}
+
