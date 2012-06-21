@@ -183,7 +183,7 @@ $.fn.colorPalette = function(options) {
 					
 					self._load();
 					
-					self.color(self._hex(options.color) || self._palettes[self._palette][0]);
+					self.color(self._hex(self._src.val() || options.color) || self._palettes[self._palette][0]);
 
 					if (options.bindTo) {
 						
